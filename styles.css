@@ -1,0 +1,69 @@
+body{
+	font-family: 'helvetica medium';
+}
+#hold{
+	width:1024px;
+	height:687px;
+	background:url(Leaderboard.png) no-repeat;
+	overflow:hidden;
+	position:absolute;
+	left:0px;
+	margin-top: -8px;
+}
+#leaderboardArea{
+	position: absolute;
+	top: 150px;
+	font-size: 20px;
+	width: 307px;
+	height: 216px;
+	left: 10px;
+	color: white;
+}
+#leaderboardRegion{
+	position: absolute;
+	top: 150px;
+	font-size: 20px;
+	width: 327px;
+	height: 394px;
+	left: 320px;
+	color:white;
+}
+#leaderboardIndividual{
+	position: absolute;
+	top: 150px;
+	font-size: 20px;
+	width: 387px;
+	height: 203px;
+	left: 645px;
+	color:white;
+}
+#returnE{
+	position: absolute; 
+	top: 12px;
+	font-size: 19px;
+	width: 61px;
+	height: 59px;
+	left: 18px;
+	background: url(returnL.png);
+	background-repeat: no-repeat;
+}
+#number{
+	height: 50px;
+	width: 71px;
+	float: left;
+}
+#region{
+	text-align:left;
+	width: 130px;
+	height: 37px;
+	float:left;
+	margin-top: 17px;
+	margin-left: 5px;
+}
+#score{
+	text-align: center;
+	width: 100px;
+	height: 38px;
+	float:right;
+	margin-top: 17px;
+}
